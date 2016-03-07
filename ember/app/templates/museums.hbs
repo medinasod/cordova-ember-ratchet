@@ -1,0 +1,17 @@
+
+<form class="input-group">
+    {{input value=name placeholder="Name"}}
+    {{input value=address placeholder="Address"}}
+    <button class="btn btn-positive btn-block" {{action "addMuseum"}}>Add Museum</button>
+</form>
+
+
+
+<div class="card">
+  <ul class="table-view">
+    <li class="table-view-cell table-view-divider"><p>All Museums</p></li>
+  {{#each model as |museum|}}
+    <li class="table-view-cell"><p>{{museum.name}}, {{museum.address}}</p></li>
+  {{/each}}
+</ul>
+</div>

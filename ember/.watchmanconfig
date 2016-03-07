@@ -1,0 +1,7 @@
+{
+  "ignore_dirs": ["tmp", "dist"],
+  ["trigger", "~/projects/ember/cordova-ratchet-ember/ember", {
+    "name": "watch-ember",
+    "command": ["ember build"]
+  }]
+}
