@@ -1,8 +1,8 @@
 define('hello/tests/adapters/application.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - adapters');
-  QUnit.test('adapters/application.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - adapters/application.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'adapters/application.js should pass jshint.');
   });
@@ -10,8 +10,8 @@ define('hello/tests/adapters/application.jshint', ['exports'], function (exports
 define('hello/tests/app.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - .');
-  QUnit.test('app.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - app.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'app.js should pass jshint.');
   });
@@ -19,8 +19,8 @@ define('hello/tests/app.jshint', ['exports'], function (exports) {
 define('hello/tests/controllers/museums.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - controllers');
-  QUnit.test('controllers/museums.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - controllers/museums.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'controllers/museums.js should pass jshint.');
   });
@@ -35,8 +35,8 @@ define('hello/tests/helpers/destroy-app', ['exports', 'ember'], function (export
 define('hello/tests/helpers/destroy-app.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - helpers');
-  QUnit.test('helpers/destroy-app.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - helpers/destroy-app.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'helpers/destroy-app.js should pass jshint.');
   });
@@ -67,8 +67,8 @@ define('hello/tests/helpers/module-for-acceptance', ['exports', 'qunit', 'hello/
 define('hello/tests/helpers/module-for-acceptance.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - helpers');
-  QUnit.test('helpers/module-for-acceptance.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - helpers/module-for-acceptance.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'helpers/module-for-acceptance.js should pass jshint.');
   });
@@ -87,8 +87,8 @@ define('hello/tests/helpers/resolver', ['exports', 'ember/resolver', 'hello/conf
 define('hello/tests/helpers/resolver.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - helpers');
-  QUnit.test('helpers/resolver.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - helpers/resolver.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'helpers/resolver.js should pass jshint.');
   });
@@ -114,8 +114,8 @@ define('hello/tests/helpers/start-app', ['exports', 'ember', 'hello/app', 'hello
 define('hello/tests/helpers/start-app.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - helpers');
-  QUnit.test('helpers/start-app.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - helpers/start-app.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'helpers/start-app.js should pass jshint.');
   });
@@ -123,8 +123,8 @@ define('hello/tests/helpers/start-app.jshint', ['exports'], function (exports) {
 define('hello/tests/models/museums.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - models');
-  QUnit.test('models/museums.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - models/museums.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'models/museums.js should pass jshint.');
   });
@@ -132,8 +132,8 @@ define('hello/tests/models/museums.jshint', ['exports'], function (exports) {
 define('hello/tests/router.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - .');
-  QUnit.test('router.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - router.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'router.js should pass jshint.');
   });
@@ -141,8 +141,8 @@ define('hello/tests/router.jshint', ['exports'], function (exports) {
 define('hello/tests/routes/index.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - routes');
-  QUnit.test('routes/index.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - routes/index.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'routes/index.js should pass jshint.');
   });
@@ -150,8 +150,8 @@ define('hello/tests/routes/index.jshint', ['exports'], function (exports) {
 define('hello/tests/routes/museums.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - routes');
-  QUnit.test('routes/museums.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - routes/museums.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'routes/museums.js should pass jshint.');
   });
@@ -159,8 +159,8 @@ define('hello/tests/routes/museums.jshint', ['exports'], function (exports) {
 define('hello/tests/routes/users.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - routes');
-  QUnit.test('routes/users.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - routes/users.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'routes/users.js should pass jshint.');
   });
@@ -172,8 +172,8 @@ define('hello/tests/test-helper', ['exports', 'hello/tests/helpers/resolver', 'e
 define('hello/tests/test-helper.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - .');
-  QUnit.test('test-helper.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - test-helper.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'test-helper.js should pass jshint.');
   });
@@ -194,8 +194,8 @@ define('hello/tests/unit/controllers/museums-test', ['exports', 'ember-qunit'], 
 define('hello/tests/unit/controllers/museums-test.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - unit/controllers');
-  QUnit.test('unit/controllers/museums-test.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - unit/controllers/museums-test.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/controllers/museums-test.js should pass jshint.');
   });
@@ -216,8 +216,8 @@ define('hello/tests/unit/models/museums-test', ['exports', 'ember-qunit'], funct
 define('hello/tests/unit/models/museums-test.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - unit/models');
-  QUnit.test('unit/models/museums-test.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - unit/models/museums-test.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/models/museums-test.js should pass jshint.');
   });
@@ -237,8 +237,8 @@ define('hello/tests/unit/routes/index-test', ['exports', 'ember-qunit'], functio
 define('hello/tests/unit/routes/index-test.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - unit/routes');
-  QUnit.test('unit/routes/index-test.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - unit/routes/index-test.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/index-test.js should pass jshint.');
   });
@@ -258,8 +258,8 @@ define('hello/tests/unit/routes/museums-test', ['exports', 'ember-qunit'], funct
 define('hello/tests/unit/routes/museums-test.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - unit/routes');
-  QUnit.test('unit/routes/museums-test.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - unit/routes/museums-test.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/museums-test.js should pass jshint.');
   });
@@ -279,8 +279,8 @@ define('hello/tests/unit/routes/users-test', ['exports', 'ember-qunit'], functio
 define('hello/tests/unit/routes/users-test.jshint', ['exports'], function (exports) {
   'use strict';
 
-  QUnit.module('JSHint - unit/routes');
-  QUnit.test('unit/routes/users-test.js should pass jshint', function (assert) {
+  QUnit.module('JSHint - unit/routes/users-test.js');
+  QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/routes/users-test.js should pass jshint.');
   });

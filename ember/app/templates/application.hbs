@@ -5,4 +5,10 @@
 
 <div class="content">
   {{outlet}}
-</div>
+</div>  
+
+<nav class="bar bar-tab">
+  {{#link-to 'index' class='tab-item'}}<span class="icon icon-home"></span><span class="tab-label">Home</span>{{/link-to}}
+  {{#link-to 'users' class='tab-item'}}<span class="icon icon-person"></span><span class="tab-label">Users</span>{{/link-to}}
+  {{#link-to 'museums' class='tab-item'}}<span class="icon icon-gear"></span><span class="tab-label">Museums</span>{{/link-to}}  
+</nav>

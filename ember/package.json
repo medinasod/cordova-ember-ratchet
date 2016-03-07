@@ -17,12 +17,14 @@
     "node": ">= 0.10.0"
   },
   "dependencies": {
-    "rimraf":"2.2.8"
+    "broccoli-concat": "^2.2.0",
+    "rimraf": "2.2.8"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
+    "broccoli-funnel": "^1.0.1",
     "ember-cli": "1.13.13",
     "ember-cli-app-version": "^1.0.0",
     "ember-cli-babel": "^5.1.5",
