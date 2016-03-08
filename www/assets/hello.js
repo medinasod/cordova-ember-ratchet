@@ -741,7 +741,7 @@ catch(err) {
 });
 
 if (!runningTests) {
-  require("hello/app")["default"].create({"name":"hello","version":"0.0.0+0de5744e"});
+  require("hello/app")["default"].create({"name":"hello","version":"0.0.0+f1e2ce57"});
 }
 
 /* jshint ignore:end */
